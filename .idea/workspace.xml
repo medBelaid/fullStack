@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee02ed02-5616-450f-abca-e0c7210c9623" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\bower_components\angular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\jquery\jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\lib\node_modules\bootstrap\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="fullStack.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fullStack" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64650285">
+              <caret line="149" column="75" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullStack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullStack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullStack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee02ed02-5616-450f-abca-e0c7210c9623" name="Default" comment="" />
+      <created>1467208901035</created>
+      <option name="number" value="Default" />
+      <updated>1467208901035</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64650285">
+          <caret line="149" column="75" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
