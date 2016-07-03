@@ -16,6 +16,8 @@
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/services/LivresService.js"></script>
     <script type="text/javascript" src="js/services/PanierService.js"></script>
+    <script type="text/javascript" src="js/filters/inferieurA.js"></script>
+    <script type="text/javascript" src="js/directives/infoAdresse.js"></script>
 </head>
 <body ng-controller="mainControleur">
 
@@ -25,11 +27,12 @@
     <div class="container">
 
 
-        <ul class="top-contact-details alignleft">
-            <li class="hidden-xs"> <i class="fa fa-map-marker"></i><span>Avenue Habib Bourguiba, Tunisie</span></li>
-            <li class="hidden-xs"> <i class="fa fa-mobile"></i><span>(+216) 71 000 000</span></li>
-            <li> <i class="fa fa-envelope"></i><a href="#">Contact@JeBouquine.com</a></li>
-        </ul>
+        <info-adresse-test
+                adresse="Avenue Habib Bourguiba, Tunisie"
+                numeroTelephone="(+216) 71 000 000"
+                email="Contact@JeBouquine.com">
+        </info-adresse-test>
+
         <ul class="top-social-icons alignright">
             <li> <a href="#" title="facebook"> <i class="fa fa-facebook-square"></i>  </a> </li>
             <li> <a href="#" title="twitter"> <i class="fa fa-twitter"></i>  </a> </li>

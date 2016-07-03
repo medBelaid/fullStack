@@ -2,7 +2,7 @@
  * Created by Mohamed on 29/06/2016.
  */
 
-app.directive('infoAdresse', function () {
+app.directive('infoAdresseTest', function () {
     return {
         restrict: 'AE',
         scope:{

@@ -5,6 +5,11 @@
         <li><a href="#">Littérature</a></li>
     </ol>
 </div>
+<div class="row">
+    <div class="form-group col-lg-2 pull-right">
+        <input type="number" class="form-control" id="prix" placeholder="Prix" ng-model="MaxPrix">
+    </div>
+</div>
 
 
 <div class="row">
@@ -21,7 +26,7 @@
     <div class="col-md-8 col-md-offset-1 col-lg-9 col-lg-offset-0">
      
 
-        <div class="media col-lg-6" style="padding:0 0 0 0;margin-top: 0px;" ng-repeat="item in Livres | orderBy : 'Nom'">
+        <div class="media col-lg-6" style="padding:0 0 0 0;margin-top: 0px;" ng-repeat="item in Livres | inferieurA: MaxPrix | orderBy : 'Nom'" >
             <div class="media-left">
                 <a href="#/Detail/{{item.Id}}">
                     <img class="media-object thumbnail" src="http://placehold.it/150x150">
