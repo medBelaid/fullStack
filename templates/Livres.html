@@ -5,54 +5,30 @@
         <li><a href="#">Littérature</a></li>
     </ol>
 </div>
-<div class="row">
-    <div class="form-group col-lg-2 pull-right">
-        <input type="number" class="form-control" id="prix" placeholder="Prix" ng-model="MaxPrix">
-    </div>
-</div>
 
-
-<div class="row">
-    <div class="col-md-3 col-lg-2">
-        <ul class="list-group">
-            <li class="list-group-item"><a href="#/LesLivres/Jeunesse">Lecture jeunesse</a></li>
-            <li class="list-group-item"><a href="#/LesLivres/SciencesTechniques">Sciences & Techniques</a></li>
-            <li class="list-group-item"><a href="#/LesLivres/DroitEconomieGestion">Droit, Economie & Gestion</a></li>
-            <li class="list-group-item"><a href="#/LesLivres/VoyagesNature">Voyages & Nature</a></li>
-            <li class="list-group-item"><a href="#/LesLivres/ScolairePedagogie">Scolaire & Pédagogie</a></li>
-
-        </ul>
-    </div>
-    <div class="col-md-8 col-md-offset-1 col-lg-9 col-lg-offset-0">
-     
-
-        <div class="media col-lg-6" style="padding:0 0 0 0;margin-top: 0px;" ng-repeat="item in Livres | inferieurA: MaxPrix | orderBy : 'Nom'" >
-            <div class="media-left">
-                <a href="#/Detail/{{item.Id}}">
-                    <img class="media-object thumbnail" src="http://placehold.it/150x150">
+<div class="blocklayout row">
+    <div class="col-md-4" ng-repeat="item in Livres | inferieurA: MaxPrix | orderBy : 'Nom'" style="margin-bottom: 20px;">
+        <div class="block product">
+            <div class="main">
+                <a class="img-link" href="#/Detail/{{item.Id}}" title="{{item.Nom}}">
+                    <img src="img/Art-Palette.jpg" alt="Art" width="80%" style="margin-left: 17px;">
                 </a>
-            </div>
-            <div class="media-body" style="padding:10px 10px 10px 10px;">
-                <h4 class="media-heading">{{ item.Nom }} </h4>
-                <h6>{{ item.Auteur }}</h6>
-                <div class="text text-danger" style="margin-bottom:10px;margin-top:10px;">
-                    <div class="text-left">
-                        <strong>Prix:</strong> {{ item.Prix }} TND
-                        <a href="#/Detail/{{item.Id}}" class="pull-right">Details</a>
+                <div class="quick-add-to-panel">
+                    <div class="input-group col-lg-6 col-lg-offset-3 ">
+                        <input type="number" class="form-control" ng-model="item.Quantite" >
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button" ng-click="AjouterLivre(item)">
+                                <i class="fa fa-cart-plus"></i></button>
+                        </span>
                     </div>
                 </div>
-
-                <div class="input-group col-lg-6 col-lg-offset-3 ">
-                    <input type="number" class="form-control" ng-model="item.Quantite" >
-                    <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button" ng-click="AjouterLivre(item)">
-                            <i class="fa fa-cart-plus"></i></button>
-                    </span>
-                </div>
-
-
+            </div>
+            <div class="sub">
+                <div><a class="title" href="#/Detail/{{item.Id}}"><span>{{item.Nom}}</span></a></div>
+                <div><span class="price">{{ item.Prix }} TND</span></div>
+                <span class="price"><b>Auteur:</b> {{ item.Auteur }}</span>
             </div>
         </div>
-
     </div>
 </div>
+

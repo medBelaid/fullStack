@@ -187,13 +187,11 @@ a {
 #content {
     overflow: hidden;
 }
-.blocklayout {
-    margin: 25px 0;
-}
 .block{
     background: #ffffff;
     box-shadow: 5px 5px 5px #ccc;
     border: 3px solid rgba(128, 128, 128, 0.14);
+    min-height: 310px;
 }
 .block.product .sub {
     text-align: center;
@@ -202,13 +200,11 @@ a {
 }
 .block.product:hover .quick-add-to-panel {
     display: block;
-    background: rgba(1, 0, 0, 0.3);
 }
 .block.product .quick-add-to-panel {
     position: absolute;
     padding: 20px;
     top: 40%;
-    left: 30%;
     text-align: center;
     display: none;
 }
@@ -370,6 +366,44 @@ a {
 .action-bottom{
     margin: 30px 40px;
 }
+
+/*panier*/
+
+.top-shop-cart li > a { font-size:20px; display:block; color:#bbc8d5; padding:10px 10px; float:left; margin-left:1px; }
+.top-shop-cart li { float:left; padding:0; position:relative; }
+/*	.top-shop-cart li.search { position:relative; }
+*/	.top-shop-cart { margin:0; padding:0; position:relative; }
+.top-shop-cart > a:hover { color:#fff; }
+.top-shop-cart.type2 li.search > a, .top-shop-cart.type2 li.dt-sc-cart > a { padding:20px; background-color:#2c3e50; }
+
+.top-shop-cart.type2 .shopping-cart:before { right:15px; }
+.top-shop-cart.type2 .shopping-cart:after { right:17px; }
+.top-shop-cart.type2 .search-form-box:before { right:20px; }
+
+.dt-sc-cart:hover .shopping-cart { display:block; -webkit-animation: 0.3s ease-in fadeInUp; -moz-animation: 0.3s ease-in 0s fadeInUp; animation: 0.3s ease-in 0s fadeInUp; }
+.shopping-cart { float:left; width:100%; background-color:#fff; border:1px solid #eaeaea; min-width:270px; padding:20px 20px 10px 20px; position:absolute; top:50px; right:0; display:none; box-shadow:0 -1px 8px 3px rgba(0, 0, 0, 0.08); }
+.shopping-cart:before { content: "\f106"; font-family:FontAwesome; font-size:28px; top:-16px; position:absolute; right:8px; color:#eaeaea; }
+.shopping-cart:after { border-color: transparent transparent #fff; border-style: solid; border-width: 7px; content: ""; display: block; height: 0; position: absolute; right: 10px; top: -14px; width: 0; }
+.shopping-cart .total { font-size:16px; font-family:"lato",sans-serif; clear:both; color:#333; font-weight:bold; float:left; width:100%; text-align:left; margin-bottom:20px; }
+.shopping-cart .total span { float:right; }
+.shopping-cart .buttons { float:left; width:100%; }
+.shopping-cart .buttons a { float:left; width:100%; display:inline-block; text-align:left; font-size:14px; background-color:#2c3e50; color:#fff; padding:10px 0; text-transform:uppercase; margin-bottom:10px; text-align:center; font-weight:bold; }
+.shopping-cart .buttons a:last-child { margin:0; }
+
+.product_cart_list { display:block; margin:0 0 10px; padding:0 0 10px; float:left; width:100%; border-bottom:1px solid #eaeaea; }
+.product_cart_list li { display:block; clear:both; margin-bottom:20px; position:relative; width:100%; }
+.product_cart_list li a { padding:0; margin:0; text-align:left; font-size:14px; margin-bottom:5px; font-weight:bold; font-family:"lato",sans-serif; float:none; color:#333; line-height:normal; margin-bottom:10px; }
+.product_cart_list li a img { max-width:80px; float:left; margin-right:10px; border:1px solid #eaeaea; }
+.product_cart_list li a .remove { position:absolute; font-size:12px; color:#fff; left:-7px; top:-7px; background-color:#191919; width:20px; height:20px; border-radius:100%; text-align:center; line-height:20px; }
+.product_cart_list .product-details { display:block; float:left; }
+.product_cart_list .product-details > span { float:left; padding:0 10px; border:1px solid #ccc; line-height:normal; font-size:12px; color:#333; margin:0 10px 5px 0; }
+/*	.product_cart_list .product-details > span:first-child { margin-right:10px; }
+*/	.product_cart_list .product-details .amount { color:#21c2f8; }
+.product_cart_list .product-details .quantity { text-align:left; display:block; clear:both; font-size:16px; font-family:"lato",sans-serif; font-weight:normal; margin-bottom:5px; color:#333; }
+.product-details { margin:0; }
+
+
+
 
 @media (min-width: 768px) {
     .navbar-collapse {

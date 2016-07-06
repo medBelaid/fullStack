@@ -21,6 +21,26 @@
 </head>
 <body ng-controller="mainControleur">
 <div class="container-fluid">
+    <ul class="top-shop-cart alignright hidden-xs hidden-sm" style="z-index:99;position: fixed;top:10px;right: 10px">
+        <li class="dt-sc-cart">
+            <a href="#"><i class="fa fa-shopping-cart"></i><span class="badge" style="margin-left:10px;margin-top:0px;">{{NombresLivres()}} </span></a>
+            <div class="shopping-cart"  >
+                <ul class="product_cart_list">
+                    <li ng-repeat="item in Panier">
+                        <a>  <img src="http://placehold.it/70x80&text=image" alt="image" />{{item.Nom}} </a>
+                        <a href="" ng-click="SupprimerLivre(item)">
+                            <span class="remove fa fa-times"  style="color:#ffffff;background-color:red"></span>
+                        </a> <div class="product-details"> <p class="quantity">
+                        <span class="amount">{{item.Prix}} TND</span> X {{item.Quantite}}</p> </div>
+                    </li>
+                </ul>
+                <p class="total">Total<span class="amount">{{CalculerMontantTotal()}} TND</span></p>
+                <p class="buttons">
+                    <a href="#">Valider</a>
+                </p>
+            </div>
+        </li>
+    </ul>
     <div class="row" >
         <div class="col-md-3" id="navbar" style="padding: 0">
 
@@ -46,18 +66,17 @@
                           </span>
                         </div><!-- /input-group -->
                     </form>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="prix" placeholder="Prix" ng-model="MaxPrix" style="margin: 0 15px;width: 30%;">
+                    </div>
                     <ul class="nav navbar-nav">
-                        <li><a href="cart.html">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            <span class="title">Panier</span>
-                            <span class="numitems">(0)</span>
-                        </a> </li>
                         <li class="active"><a href="#">Accueil</a></li>
-                        <li><a href="#">Toute la Collection</a></li>
-                        <li><a>Arts</a></li>
-                        <li><a>Cuisine</a></li>
-                        <li><a>Histoire</a></li>
-                        <li><a>Sport</a></li>
+                        <li class="list-group-item" style="background: #eee;"><a href="#/LesLivres">Toute la Collection</a></li>
+                        <li class="list-group-item"><a href="#/LesLivres/Jeunesse">Lecture jeunesse</a></li>
+                        <li class="list-group-item" style="background: #eee;"><a href="#/LesLivres/SciencesTechniques">Sciences & Techniques</a></li>
+                        <li class="list-group-item"><a href="#/LesLivres/DroitEconomieGestion">Droit, Economie & Gestion</a></li>
+                        <li class="list-group-item" style="background: #eee;"><a href="#/LesLivres/VoyagesNature">Voyages & Nature</a></li>
+                        <li class="list-group-item"><a href="#/LesLivres/ScolairePedagogie">Scolaire & Pédagogie</a></li>
                         <li><a href="login.html"><button type="button" class="btn btn-success navbar-btn">Connexion</button></a></li>
                         <li><a href="register.html">S'inscrire</a></li>
                     </ul>
