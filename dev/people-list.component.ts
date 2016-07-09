@@ -1,16 +1,12 @@
 import { Component } from 'angular2/core';
-interface Person{
-    name: string;
-    weight: number;
-    height: number;
-}
+import {Person} from './person';
 @Component({
   selector: 'people-list',
   template: `
   <!-- this is the new syntax for ng-repeat -->
   <ul *ngFor="#person of people">
     <li>
-     {{person.name}}
+     {{person.name}} - {{person.height}}
     </li>
   </ul>
   `

@@ -1,4 +1,4 @@
-System.register(['angular2/core', './people-list.component'], function(exports_1, context_1) {
+System.register(['angular2/core', './people-list.component', './my-component.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './people-list.component'], function(exports_1
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, people_list_component_1;
+    var core_1, people_list_component_1, my_component_component_1;
     var AppComponent;
     return {
         setters:[
@@ -19,6 +19,9 @@ System.register(['angular2/core', './people-list.component'], function(exports_1
             },
             function (people_list_component_1_1) {
                 people_list_component_1 = people_list_component_1_1;
+            },
+            function (my_component_component_1_1) {
+                my_component_component_1 = my_component_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -28,8 +31,8 @@ System.register(['angular2/core', './people-list.component'], function(exports_1
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n        <h1>Angular 3 Boilerplate {{ pageTitle }}</h1>\n        <p>Hello World in Fast Print Sahline!</p>\n        <people-list>\n    ",
-                        directives: [people_list_component_1.PeopleListComponent]
+                        template: "\n        <h1>Angular 3 Boilerplate {{ pageTitle }}</h1>\n        <p>Hello World in Fast Print Sahline!</p>\n        <people-list></people-list>\n        <my-component></my-component>\n    ",
+                        directives: [people_list_component_1.PeopleListComponent, my_component_component_1.MyComponentComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
@@ -40,4 +43,4 @@ System.register(['angular2/core', './people-list.component'], function(exports_1
     }
 });
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFXQTtnQkFBQTtvQkFDQSxjQUFTLEdBQVcsY0FBYyxDQUFDO2dCQUNuQyxDQUFDO2dCQVhEO29CQUFDLGdCQUFTLENBQUM7d0JBQ1AsUUFBUSxFQUFFLFFBQVE7d0JBQ2xCLFFBQVEsRUFBRSwwSUFJVDt3QkFDRCxVQUFVLEVBQUUsQ0FBQywyQ0FBbUIsQ0FBQztxQkFDcEMsQ0FBQzs7Z0NBQUE7Z0JBR0YsbUJBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELHVDQUVDLENBQUEiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdhbmd1bGFyMi9jb3JlJztcbmltcG9ydCB7UGVvcGxlTGlzdENvbXBvbmVudH0gZnJvbSAnLi9wZW9wbGUtbGlzdC5jb21wb25lbnQnO1xuQENvbXBvbmVudCh7XG4gICAgc2VsZWN0b3I6ICdteS1hcHAnLFxuICAgIHRlbXBsYXRlOiBgXG4gICAgICAgIDxoMT5Bbmd1bGFyIDMgQm9pbGVycGxhdGUge3sgcGFnZVRpdGxlIH19PC9oMT5cbiAgICAgICAgPHA+SGVsbG8gV29ybGQgaW4gRmFzdCBQcmludCBTYWhsaW5lITwvcD5cbiAgICAgICAgPHBlb3BsZS1saXN0PlxuICAgIGAsXG4gICAgZGlyZWN0aXZlczogW1Blb3BsZUxpc3RDb21wb25lbnRdXG59KVxuZXhwb3J0IGNsYXNzIEFwcENvbXBvbmVudCB7XG5wYWdlVGl0bGU6IHN0cmluZyA9IFwiQWNtZSBQcm9kdWN0XCI7XG59XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFhQTtnQkFBQTtvQkFDQSxjQUFTLEdBQVcsY0FBYyxDQUFDO2dCQUNuQyxDQUFDO2dCQVpEO29CQUFDLGdCQUFTLENBQUM7d0JBQ1AsUUFBUSxFQUFFLFFBQVE7d0JBQ2xCLFFBQVEsRUFBRSwrTEFLVDt3QkFDRCxVQUFVLEVBQUUsQ0FBQywyQ0FBbUIsRUFBRSw2Q0FBb0IsQ0FBQztxQkFDMUQsQ0FBQzs7Z0NBQUE7Z0JBR0YsbUJBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELHVDQUVDLENBQUEiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdhbmd1bGFyMi9jb3JlJztcbmltcG9ydCB7UGVvcGxlTGlzdENvbXBvbmVudH0gZnJvbSAnLi9wZW9wbGUtbGlzdC5jb21wb25lbnQnO1xuaW1wb3J0IHtNeUNvbXBvbmVudENvbXBvbmVudH0gZnJvbSAnLi9teS1jb21wb25lbnQuY29tcG9uZW50JztcbkBDb21wb25lbnQoe1xuICAgIHNlbGVjdG9yOiAnbXktYXBwJyxcbiAgICB0ZW1wbGF0ZTogYFxuICAgICAgICA8aDE+QW5ndWxhciAzIEJvaWxlcnBsYXRlIHt7IHBhZ2VUaXRsZSB9fTwvaDE+XG4gICAgICAgIDxwPkhlbGxvIFdvcmxkIGluIEZhc3QgUHJpbnQgU2FobGluZSE8L3A+XG4gICAgICAgIDxwZW9wbGUtbGlzdD48L3Blb3BsZS1saXN0PlxuICAgICAgICA8bXktY29tcG9uZW50PjwvbXktY29tcG9uZW50PlxuICAgIGAsXG4gICAgZGlyZWN0aXZlczogW1Blb3BsZUxpc3RDb21wb25lbnQsIE15Q29tcG9uZW50Q29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBBcHBDb21wb25lbnQge1xucGFnZVRpdGxlOiBzdHJpbmcgPSBcIkFjbWUgUHJvZHVjdFwiO1xufVxuIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
