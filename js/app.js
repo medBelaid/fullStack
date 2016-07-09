@@ -20,8 +20,12 @@ app.config(function($routeProvider){
 
         .when('/LesLivres/:Category?', {templateUrl: "templates/Livres.html",
                 controller: 'LivresControleur'})
-        
-        .otherwise({
+
+        .when('/Node', {templateUrl: "templates/node.html",
+                controller: 'NodeControleur'})
+
+
+            .otherwise({
                     redirectTo: '/Accueil'
             })
     ;
