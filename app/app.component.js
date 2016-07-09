@@ -1,4 +1,4 @@
-System.register(['angular2/core', './people-list.component', './my-component.component'], function(exports_1, context_1) {
+System.register(['angular2/core', './people-list.component', './my-component.component', './puzzle/puzzle.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './people-list.component', './my-component.com
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, people_list_component_1, my_component_component_1;
+    var core_1, people_list_component_1, my_component_component_1, puzzle_component_1;
     var AppComponent;
     return {
         setters:[
@@ -22,6 +22,9 @@ System.register(['angular2/core', './people-list.component', './my-component.com
             },
             function (my_component_component_1_1) {
                 my_component_component_1 = my_component_component_1_1;
+            },
+            function (puzzle_component_1_1) {
+                puzzle_component_1 = puzzle_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -31,8 +34,8 @@ System.register(['angular2/core', './people-list.component', './my-component.com
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n        <h1>Angular 3 Boilerplate {{ pageTitle }}</h1>\n        <p>Hello World in Fast Print Sahline!</p>\n        <people-list></people-list>\n        <my-component></my-component>\n    ",
-                        directives: [people_list_component_1.PeopleListComponent, my_component_component_1.MyComponentComponent]
+                        template: "\n        <h1>Angular 3 {{ pageTitle }}</h1>\n        <p>Hello World in Fast Print Sahline!</p>\n        <people-list></people-list>\n        <my-component></my-component>\n        <puzzle></puzzle>\n    ",
+                        directives: [people_list_component_1.PeopleListComponent, my_component_component_1.MyComponentComponent, puzzle_component_1.PuzzleComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
@@ -43,4 +46,4 @@ System.register(['angular2/core', './people-list.component', './my-component.com
     }
 });
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFhQTtnQkFBQTtvQkFDQSxjQUFTLEdBQVcsY0FBYyxDQUFDO2dCQUNuQyxDQUFDO2dCQVpEO29CQUFDLGdCQUFTLENBQUM7d0JBQ1AsUUFBUSxFQUFFLFFBQVE7d0JBQ2xCLFFBQVEsRUFBRSwrTEFLVDt3QkFDRCxVQUFVLEVBQUUsQ0FBQywyQ0FBbUIsRUFBRSw2Q0FBb0IsQ0FBQztxQkFDMUQsQ0FBQzs7Z0NBQUE7Z0JBR0YsbUJBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELHVDQUVDLENBQUEiLCJmaWxlIjoiYXBwLmNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdhbmd1bGFyMi9jb3JlJztcbmltcG9ydCB7UGVvcGxlTGlzdENvbXBvbmVudH0gZnJvbSAnLi9wZW9wbGUtbGlzdC5jb21wb25lbnQnO1xuaW1wb3J0IHtNeUNvbXBvbmVudENvbXBvbmVudH0gZnJvbSAnLi9teS1jb21wb25lbnQuY29tcG9uZW50JztcbkBDb21wb25lbnQoe1xuICAgIHNlbGVjdG9yOiAnbXktYXBwJyxcbiAgICB0ZW1wbGF0ZTogYFxuICAgICAgICA8aDE+QW5ndWxhciAzIEJvaWxlcnBsYXRlIHt7IHBhZ2VUaXRsZSB9fTwvaDE+XG4gICAgICAgIDxwPkhlbGxvIFdvcmxkIGluIEZhc3QgUHJpbnQgU2FobGluZSE8L3A+XG4gICAgICAgIDxwZW9wbGUtbGlzdD48L3Blb3BsZS1saXN0PlxuICAgICAgICA8bXktY29tcG9uZW50PjwvbXktY29tcG9uZW50PlxuICAgIGAsXG4gICAgZGlyZWN0aXZlczogW1Blb3BsZUxpc3RDb21wb25lbnQsIE15Q29tcG9uZW50Q29tcG9uZW50XVxufSlcbmV4cG9ydCBjbGFzcyBBcHBDb21wb25lbnQge1xucGFnZVRpdGxlOiBzdHJpbmcgPSBcIkFjbWUgUHJvZHVjdFwiO1xufVxuIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUFlQTtnQkFBQTtvQkFDQSxjQUFTLEdBQVcsY0FBYyxDQUFDO2dCQUNuQyxDQUFDO2dCQWJEO29CQUFDLGdCQUFTLENBQUM7d0JBQ1AsUUFBUSxFQUFFLFFBQVE7d0JBQ2xCLFFBQVEsRUFBRSw4TUFNVDt3QkFDRCxVQUFVLEVBQUUsQ0FBQywyQ0FBbUIsRUFBRSw2Q0FBb0IsRUFBRSxrQ0FBZSxDQUFDO3FCQUMzRSxDQUFDOztnQ0FBQTtnQkFHRixtQkFBQztZQUFELENBRkEsQUFFQyxJQUFBO1lBRkQsdUNBRUMsQ0FBQSIsImZpbGUiOiJhcHAuY29tcG9uZW50LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ2FuZ3VsYXIyL2NvcmUnO1xuaW1wb3J0IHtQZW9wbGVMaXN0Q29tcG9uZW50fSBmcm9tICcuL3Blb3BsZS1saXN0LmNvbXBvbmVudCc7XG5pbXBvcnQge015Q29tcG9uZW50Q29tcG9uZW50fSBmcm9tICcuL215LWNvbXBvbmVudC5jb21wb25lbnQnO1xuaW1wb3J0IHtQdXp6bGVDb21wb25lbnR9IGZyb20gJy4vcHV6emxlL3B1enpsZS5jb21wb25lbnQnO1xuQENvbXBvbmVudCh7XG4gICAgc2VsZWN0b3I6ICdteS1hcHAnLFxuICAgIHRlbXBsYXRlOiBgXG4gICAgICAgIDxoMT5Bbmd1bGFyIDMge3sgcGFnZVRpdGxlIH19PC9oMT5cbiAgICAgICAgPHA+SGVsbG8gV29ybGQgaW4gRmFzdCBQcmludCBTYWhsaW5lITwvcD5cbiAgICAgICAgPHBlb3BsZS1saXN0PjwvcGVvcGxlLWxpc3Q+XG4gICAgICAgIDxteS1jb21wb25lbnQ+PC9teS1jb21wb25lbnQ+XG4gICAgICAgIDxwdXp6bGU+PC9wdXp6bGU+XG4gICAgYCxcbiAgICBkaXJlY3RpdmVzOiBbUGVvcGxlTGlzdENvbXBvbmVudCwgTXlDb21wb25lbnRDb21wb25lbnQsIFB1enpsZUNvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgQXBwQ29tcG9uZW50IHtcbnBhZ2VUaXRsZTogc3RyaW5nID0gXCJBY21lIFByb2R1Y3RcIjtcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

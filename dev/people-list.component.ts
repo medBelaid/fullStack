@@ -1,5 +1,6 @@
 import { Component } from 'angular2/core';
 import {Person} from './person';
+import { PeopleService } from './people.service';
 @Component({
   selector: 'people-list',
   template: `
@@ -9,13 +10,12 @@ import {Person} from './person';
      {{person.name}} - {{person.height}}
     </li>
   </ul>
-  `
+  `,
+  providers: [PeopleService]
 })
 export class PeopleListComponent{
-  people: Person[] = [
-    {name: 'Mohamed Romdhani', height: 170, weight: 74},
-    {name: 'Ramy Ben Chaabene', height: 180, weight: 80},
-    {name: 'Mohamed Ali Hammar', height: 178, weight: 75},
-  ];
-
+people: Person[] = [];
+constructor(private _peopleService : PeopleService){
+  this.people = _peopleService.getAll();
+}
 }
