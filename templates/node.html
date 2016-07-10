@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-<table class="table">
-    <thead><tr><th>Title1</th><th>Title2</th></tr></thead>
-</table>
-</body>
-</html>
+
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table" style="margin-top: 50px">
+            <thead>
+                 <tr><th>Nom</th><th>Auteur</th><th>Prix</th><th>MaisonEdition</th><th>NombrePages</th></tr>
+            </thead>
+            <tbody><tr ng-repeat="livre in Livres">
+                <td>{{livre.Nom}}</td>
+                <td>{{livre.Auteur}}</td>
+                <td>{{livre.Prix}}</td>
+                <td>{{livre.MaisonEdition}}</td>
+                <td>{{livre.NombrePages}}</td>
+            </tr></tbody>
+        </table>
+    </div>
+</div>
