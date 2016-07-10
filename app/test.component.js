@@ -20,11 +20,13 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         execute: function() {
             TestComponent = (function () {
                 function TestComponent() {
+                    this.Myname = '';
                 }
                 TestComponent = __decorate([
                     core_1.Component({
                         selector: 'test',
-                        templateUrl: 'templates/test.tpl.html'
+                        templateUrl: 'templates/test.tpl.html',
+                        inputs: ['Myname']
                     }), 
                     __metadata('design:paramtypes', [])
                 ], TestComponent);
@@ -35,4 +37,4 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     }
 });
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O1lBTUE7Z0JBQUE7Z0JBQ0EsQ0FBQztnQkFMRDtvQkFBQyxnQkFBUyxDQUFDO3dCQUNULFFBQVEsRUFBRSxNQUFNO3dCQUNoQixXQUFXLEVBQUMseUJBQXlCO3FCQUN0QyxDQUFDOztpQ0FBQTtnQkFFRixvQkFBQztZQUFELENBREEsQUFDQyxJQUFBO1lBREQseUNBQ0MsQ0FBQSIsImZpbGUiOiJ0ZXN0LmNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdhbmd1bGFyMi9jb3JlJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAndGVzdCcsXG4gIHRlbXBsYXRlVXJsOid0ZW1wbGF0ZXMvdGVzdC50cGwuaHRtbCdcbn0pXG5leHBvcnQgY2xhc3MgVGVzdENvbXBvbmVudHtcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O1lBT0E7Z0JBQUE7b0JBQ0UsV0FBTSxHQUFHLEVBQUUsQ0FBQztnQkFDZCxDQUFDO2dCQVBEO29CQUFDLGdCQUFTLENBQUM7d0JBQ1QsUUFBUSxFQUFFLE1BQU07d0JBQ2hCLFdBQVcsRUFBQyx5QkFBeUI7d0JBQ3JDLE1BQU0sRUFBRSxDQUFDLFFBQVEsQ0FBQztxQkFDbkIsQ0FBQzs7aUNBQUE7Z0JBR0Ysb0JBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELHlDQUVDLENBQUEiLCJmaWxlIjoidGVzdC5jb21wb25lbnQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSAnYW5ndWxhcjIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICBzZWxlY3RvcjogJ3Rlc3QnLFxuICB0ZW1wbGF0ZVVybDondGVtcGxhdGVzL3Rlc3QudHBsLmh0bWwnXG4gIGlucHV0czogWydNeW5hbWUnXVxufSlcbmV4cG9ydCBjbGFzcyBUZXN0Q29tcG9uZW50e1xuICBNeW5hbWUgPSAnJztcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
