@@ -21,7 +21,7 @@ app.config(function($routeProvider){
         .when('/LesLivres/:Category?', {templateUrl: "templates/Livres.html",
                 controller: 'LivresControleur'})
 
-        .when('/Node', {templateUrl: "templates/node.html",
+        .when('/Administration', {templateUrl: "templates/administration.html",
                 controller: 'NodeControleur'})
 
 

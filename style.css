@@ -217,6 +217,13 @@ a {
 .padded40{
     padding: 40px;
 }
+.checkboxx{
+    width: 100%;
+}
+.checkboxx span{
+    float: right;
+    margin-right: 20px;
+}
 .nextprod {
     float: right;
 }

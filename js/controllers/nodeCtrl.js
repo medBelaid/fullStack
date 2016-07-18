@@ -5,6 +5,7 @@
 app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http', function($scope, $routeParams, LivresService,$http) {
     $scope.Livres = [];
     $scope.Categories = [];
+    $scope.Langues = [{Langue:"Anglais"},{Langue:"Français"}];
     var getAllLivres = function () {
         $http.get("/Livres").success(function(response){
             console.log("i got all books");
