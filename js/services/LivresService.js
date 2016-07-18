@@ -3,7 +3,7 @@ app.factory('LivresService', function ($http) {
     var objLivres = {};
     objLivres.Livres = [];
     objLivres.RecupererLivres = function () {
-        return $http({ url: "js/data.livre.json" });
+        return $http({ url: "/Livres" });
     };
     objLivres.ChercherParId = function (id) {
         var livre = {};

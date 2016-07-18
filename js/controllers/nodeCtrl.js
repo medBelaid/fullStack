@@ -24,7 +24,14 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
     getAllLivres();
     getAllcategories();
 
-    $scope.addLivre = function () {
+    $scope.saveBook = function () {
+        if (angular.isDefined($scope.livre.Id)) {
+            $scope.updateBook();
+        } else {
+            $scope.addBook();
+        }
+    }
+    $scope.addBook = function () {
         if($scope.Livres.length >= 1){
            $scope.livre.Id = $scope.Livres[$scope.Livres.length - 1].Id + 1;
             console.log('length > 1');
