@@ -66,7 +66,12 @@ app.controller('DetailControleur', function ($scope, $routeParams, LivresService
         $scope.Livre = data;
     });
     $scope.AjouterLivre = function (item) {
-        PanierService.AjouterLivre(item);     }
+        PanierService.AjouterLivre(item);
+    }
+    $scope.activeTab = 1;
+    $scope.setActiveTab = function(tabToSet){
+        $scope.activeTab = tabToSet;
+    }
 });
 
 

@@ -2,431 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee02ed02-5616-450f-abca-e0c7210c9623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/WiredTiger.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/WiredTigerLAS.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/_mdb_catalog.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/collection-0-757073248613337118.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/index-1-757073248613337118.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-44-37Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-45-15Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-46-31Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-47-25Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-49-07Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-50-41Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-50-53Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-52-31Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-54-53Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-55-09Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-55-38Z-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/mongod.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/sizeStorer.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/storage.bson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/-internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/HISTORY" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/WiredTiger.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/WiredTiger.turtle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/data/WiredTiger" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/promise/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/angular-touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/angular-touch.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/angular-touch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/animation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/animation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/apm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/asap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/dist/async.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/body.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/body.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/boot.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/browserify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/bson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/ca.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/calculate_size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/cell.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/cell.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/cellnav/less/cellNav.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/cellnav/less/cellNav.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/client.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/client_password.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/move-columns/less/colMovable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/move-columns/less/colMovable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/resize-columns/less/column-resizer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/resize-columns/less/column-resizer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/connection/commands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/wireprotocol/commands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/connection/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/cursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/deserializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/deserializer_bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/edit/less/edit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/edit/less/edit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/elements.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/elements.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/enumerator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/es6-promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/es6-promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/es6-promise.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/es6-promise.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/expandable/less/expandable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/expandable/less/expandable.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/exporter/less/exporter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/exporter/less/exporter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/footer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/goups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/goups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/grouping/less/grouping.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/grouping/less/grouping.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/header.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/importer/less/importer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/importer/less/importer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/json3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/connection/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/mocha.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/mongolabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/mongos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/nodelint.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/deps/nodeunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/deps/nodeunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/objectid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-touch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/underscore/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/pagination/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/pagination/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/strategies/ping.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/pinning/less/pinning.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/pinning/less/pinning.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/polyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/connection/pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/promise/race.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/promise/reject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/replset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/replset_state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/promise/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/row-edit/less/rowEdit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/row-edit/less/rowEdit.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/rtl.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/rtl.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/scram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/selection/less/selection.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/selection/less/selection.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/parser/serializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test_boot/server_password.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/sorting.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/sorting.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/test/test-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/tree-base/less/tree-base.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/tree-base/less/tree-base.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/tree-view/less/tree-view.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/tree-view/less/tree-view.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/ui-grid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/ui-grid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/lib/es6-promise/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/validate/less/validate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/validate/less/validate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-ui-grid/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-grid/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/es6-promise/dist/test/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/x.js" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\async\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\load.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\scram.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\connection\commands.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\connection\connection.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\connection\logger.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\connection\pool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\error.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\mongos.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\replset.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\replset_state.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\strategies\ping.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\wireprotocol\2_4_support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\wireprotocol\2_6_support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\wireprotocol\commands.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\binary.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\bson.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\objectid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\parser\calculate_size.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\parser\deserializer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\parser\serializer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\binding.gyp" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\builderror.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\auth_processes\mongodb.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\base64.c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\base64.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos_context.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberos_context.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberosgss.c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\kerberosgss.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\sspi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\base64.c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\base64.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos_sspi.c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\kerberos_sspi.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\worker.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\worker.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_context.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_credentials.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_credentials.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\win32\wrappers\security_credentials.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\worker.cc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\lib\worker.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\.dntrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\appveyor.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\include_dirs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan_implementation_12_inl.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan_implementation_pre_12_inl.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan_new.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\nan_string_bytes.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\node_modules\nan\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\kerberos_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\kerberos_win32_test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\win32\security_buffer_descriptor_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\win32\security_buffer_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\test\win32\security_credentials_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\util.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\t1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\wercker.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\example\center.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\example\meat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\test\break.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\test\idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\optimist\node_modules\wordwrap\test\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\package.json" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\LICENSE" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/LICENSE" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\TESTING.md" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/TESTING.md" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\conf.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/conf.json" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\gssapi.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/gssapi.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\mongocr.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/mongocr.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\plain.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/plain.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\sspi.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/sspi.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\auth\x509.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/auth/x509.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\connection\utils.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/connection/utils.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\tools\smoke_plugin.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/tools/smoke_plugin.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\command_result.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/command_result.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\read_preference.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/read_preference.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\lib\topologies\session.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/lib/topologies/session.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\alternate_parsers\bson.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/alternate_parsers/bson.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\alternate_parsers\faster_bson.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/alternate_parsers/faster_bson.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\browser_build\bson.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/browser_build/bson.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\browser_build\package.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/browser_build/package.json" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\binary_parser.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/binary_parser.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\code.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/code.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\db_ref.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/db_ref.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\double.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/double.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\float_parser.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/float_parser.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\long.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/long.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\max_key.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/max_key.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\min_key.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/min_key.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\symbol.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/symbol.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\lib\bson\timestamp.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/lib/bson/timestamp.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\bson\tools\gleak.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/tools/gleak.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\node_modules\kerberos\LICENSE" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/node_modules/bson/LICENSE" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\mongodb-core\simple_2_document_limit_toArray.dat" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb-core/simple_2_document_limit_toArray.dat" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\.npmignore" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/.npmignore" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\LICENSE" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/LICENSE" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\README.md" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/README.md" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\duplex.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/duplex.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\lib\_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\lib\_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\lib\_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\README.md" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="$PROJECT_DIR$/node_modules/isarray/build/build.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="$PROJECT_DIR$/node_modules/isarray/component.json" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\index.js" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\passthrough.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/passthrough.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\readable.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/readable.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\transform.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/transform.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\mongodb\node_modules\readable-stream\writable.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/readable-stream/writable.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\LICENSE" afterPath="$PROJECT_DIR$/node_modules/underscore/LICENSE" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\README.md" afterPath="$PROJECT_DIR$/node_modules/underscore/README.md" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\underscore-min.js" afterPath="$PROJECT_DIR$/node_modules/underscore/underscore-min.js" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\underscore-min.map" afterPath="$PROJECT_DIR$/node_modules/underscore/underscore-min.map" />
-      <change type="MOVED" beforePath="C:\wamp\www\fullStack\fullStack\node_modules\pow-mongodb-fixtures\node_modules\underscore\underscore.js" afterPath="$PROJECT_DIR$/node_modules/underscore/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Detail.html" afterPath="$PROJECT_DIR$/templates/Detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/LivresService.js" afterPath="$PROJECT_DIR$/js/services/LivresService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/Makefile" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/Makefile" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/README.md" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/README.md" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/admin.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/administration.html" afterPath="$PROJECT_DIR$/templates/administration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/aggregation_cursor.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/aggregation_cursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/lib/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/gridfs/chunk.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/gridfs/chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/collection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/command_cursor.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/command_cursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/common.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/conf.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.js" afterPath="$PROJECT_DIR$/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/cursor.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/cursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/db.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture.js" afterPath="$PROJECT_DIR$/fixture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/gridfs/grid_store.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/gridfs/grid_store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/index.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/index.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/mainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/mongo_client.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/mongo_client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/mongos.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/mongos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/nodeCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/nodeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/ordered.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/ordered.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/optimist/test/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/replset.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/replset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/t.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/t.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/topology_base.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/topology_base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/unordered.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/bulk/unordered.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/url_parser.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/url_parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/pow-mongodb-fixtures/node_modules/mongodb/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fullStack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -531,9 +108,12 @@
       <file leaf-file-name="Detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.28346458">
-              <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-              <folding />
+            <state vertical-scroll-proportion="0.27034122">
+              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -542,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/js/controllers/mainCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -595,8 +175,8 @@
         <option value="$PROJECT_DIR$/templates/administration.html" />
         <option value="$PROJECT_DIR$/js/controllers/nodeCtrl.js" />
         <option value="$PROJECT_DIR$/js/services/LivresService.js" />
-        <option value="$PROJECT_DIR$/js/controllers/mainCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/controllers/mainCtrl.js" />
         <option value="$PROJECT_DIR$/templates/Detail.html" />
       </list>
     </option>
@@ -794,8 +374,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18003026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -805,7 +385,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0228385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10892587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24183007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24183007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1207,14 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/mainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1241,11 +813,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28346458">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding />
+        <state vertical-scroll-proportion="0.27034122">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
