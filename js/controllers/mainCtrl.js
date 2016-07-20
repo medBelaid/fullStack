@@ -1,5 +1,11 @@
 'use strict';
-app.controller('mainControleur', ['$scope','LivresService','PanierService','$routeParams', function($scope, LivresService, PanierService,$routeParams) {
+app.controller('mainControleur', [
+    '$scope',
+    'LivresService',
+    'PanierService',
+    '$routeParams',
+    '$http',
+    function($scope, LivresService, PanierService,$routeParams, $http) {
 
     $scope.EstPanierVide = true;
     $scope.Panier = PanierService.Panier;
@@ -24,6 +30,8 @@ app.controller('mainControleur', ['$scope','LivresService','PanierService','$rou
     }
 
     $scope.Livres = [];
+    $scope.Categories = [];
+
     $scope.promise = LivresService.RecupererLivres()
         .success(function (data, status, headers, config) {
             $scope.Livres = data;
@@ -31,6 +39,12 @@ app.controller('mainControleur', ['$scope','LivresService','PanierService','$rou
             if ($routeParams.Category != null)
                 $scope.Livres = LivresService.ChercherParCategorie($routeParams.Category);
         }).error(function (data, status, headers, config) {            });
+
+    $http.get("/Categories").success(function(response){
+        $scope.Categories = response;
+        $scope.Categorie = "";
+    });
+
     $scope.AjouterLivre = function(item)     {
         PanierService.AjouterLivre(item) ;
     }

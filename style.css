@@ -232,10 +232,18 @@ a {
     z-index: 3;
     top: 0;
 }
+.inputPrice{
+    margin: 0 15px;
+    width: 50%;
+    display: inline-block;
+}
 .gridStyle {
     border: 1px solid rgb(212,212,212);
     width: 100%;
     height: 300px;
+}
+.btns-cat{
+    margin: 0 80px 20px 0;
 }
 .nextprod {
     float: right;
@@ -468,6 +476,12 @@ a {
 @media (max-width: 768px) {
     .block{
         margin-bottom: 20px;
+    }
+    .btns-cat{
+        margin: 20px 0 20px 0;
+    }
+    .input-group{
+        margin-bottom: 10px;
     }
     #product-info .quantadd #quantity{
         margin-bottom: 10px;

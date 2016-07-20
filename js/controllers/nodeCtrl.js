@@ -5,7 +5,12 @@
 app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http',
     function($scope, $routeParams, LivresService,$http) {
     $scope.Livres = [];
+    $scope.categorie = "";
     $scope.Categories = [];
+    $scope.displayMode = "liv"
+    $scope.setDisplayMode = function (mode) {
+        $scope.displayMode = mode;
+    }
     $scope.Langues = [{Langue:"Anglais"},{Langue:"Français"}];
 
     var RecupererLivres = function () {
@@ -23,6 +28,7 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
     RecupererLivres();
     Recuperercategories();
 
+    //*****************************Gestion de Livres**************************************************//
     $scope.EnregistrerLivre = function () {
         if (angular.isDefined($scope.livre.Id)) {
             $scope.UpdateLivre();
@@ -111,4 +117,18 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
                 cellTemplate: temp1
             }]
     };
+    //*****************************Gestion de Categories**************************************************//
+    $scope.EnregistrerCategorie = function () {
+        if (angular.isDefined($scope.categorie._id)) {
+            $scope.UpdateCategorie();
+        } else {
+            $scope.AjouterCategorie();
+            $( "<li><a href='#/LesLivres/"+$scope.categorie.Id+"'>"+$scope.categorie.Libelle+"</a></li>" ).insertAfter( "#catMenu" );
+        }
+    }
+    $scope.AjouterCategorie = function () {
+        $http.post("/Categorie/Creer", $scope.categorie).success(function(r){
+            Recuperercategories();
+        });
+    }
 }]);
