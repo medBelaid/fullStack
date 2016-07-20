@@ -20,6 +20,7 @@ app.get('/Livre/:Id', contoller.RecupererLivreParId);
 app.get('/Categories', contoller.RecupererCategories);
 app.post('/Categorie/Creer', contoller.CreerCategorie);
 app.post('/Livre/Creer', contoller.CreerLivre);
+app.post('/Livre/Editer', contoller.EditerLivre);
 app.delete('/Livre/Delete/:Id', contoller.DeleteLivre);
 
 app.get("/livrelist",function(req,res){

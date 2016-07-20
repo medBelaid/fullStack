@@ -6,14 +6,8 @@ app.factory('LivresService', function ($http) {
         return $http({ url: "/Livres" });
     };
     objLivres.ChercherParId = function (id) {
-        var livre = {};
-        angular.forEach(this.Livres, function (item) {
-            if (item.Id == id) {
-                livre = item;
-                return item;
-            }
-        });
-        return livre;     };
+        return $http({ url: "/Livre/"+id });
+    };
     objLivres.ChercherParCategorie = function (categorie) {
         var livres = [];
         angular.forEach(this.Livres, function (item) {

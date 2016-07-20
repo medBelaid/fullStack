@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
+    <link rel="stylesheet" type="text/css" href="lib/angular-ui-grid/ui-grid.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:100,400,700|Lato:100,400,700|Lato:100,400,700|Lato:100,400,700" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="lib/angular/angular-route.js"></script>
@@ -18,6 +19,7 @@
     <script type="text/javascript" src="js/services/PanierService.js"></script>
     <script type="text/javascript" src="js/filters/inferieurA.js"></script>
     <script type="text/javascript" src="js/directives/infoAdresse.js"></script>
+    <script src="lib/angular-ui-grid/ui-grid.min.js"></script>
 </head>
 <body ng-controller="mainControleur">
 <div class="container-fluid">
@@ -27,7 +29,7 @@
             <div class="shopping-cart"  >
                 <ul class="product_cart_list">
                     <li ng-repeat="item in Panier">
-                        <a>  <img src="http://placehold.it/70x80&text=image" alt="image" />{{item.Nom}} </a>
+                        <a>  <img ng-src="item.UrlImage" alt="image" />{{item.Nom}} </a>
                         <a href="" ng-click="SupprimerLivre(item)">
                             <span class="remove fa fa-times"  style="color:#ffffff;background-color:red"></span>
                         </a> <div class="product-details"> <p class="quantity">

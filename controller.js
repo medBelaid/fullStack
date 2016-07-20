@@ -17,6 +17,15 @@ exports.RecupererLivreParId = function (req, res) {
             return console.error(err);         }
         res.json(livre);     });
 };
+exports.EditerLivre = function (req, res) {
+    console.log('Editer Livre');
+    var options = {Id: req.body.Id};
+    models.Livre.findOneAndUpdate(options,req.body, {upsert:true}, function(err, livre) {
+        if (err) {
+            return console.error(err);         }
+        res.json(livre);
+    });
+};
 exports.RecupererLivresParCategorie = function (req, res) {
     console.log('RecupererLivresParCategorie');
     var options = {Categorie: req.params.categorie};

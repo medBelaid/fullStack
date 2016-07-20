@@ -1,5 +1,5 @@
 
-var app = angular.module('appJeBouquine',['ngRoute','ngMessages']);
+var app = angular.module('appJeBouquine',['ngRoute','ngMessages','ui.grid']);
 
 app.config(function($routeProvider){
     
