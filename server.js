@@ -21,7 +21,9 @@ app.get('/Categories', contoller.RecupererCategories);
 app.post('/Categorie/Creer', contoller.CreerCategorie);
 app.post('/Livre/Creer', contoller.CreerLivre);
 app.post('/Livre/Editer', contoller.EditerLivre);
+app.post('/Categorie/Editer', contoller.EditerCategorie);
 app.delete('/Livre/Delete/:Id', contoller.DeleteLivre);
+app.delete('/Categorie/Delete/:Id', contoller.DeleteCategorie);
 
 app.get("/livrelist",function(req,res){
     db.livrelist.find(function(err, docs){

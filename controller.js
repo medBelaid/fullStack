@@ -18,12 +18,19 @@ exports.RecupererLivreParId = function (req, res) {
         res.json(livre);     });
 };
 exports.EditerLivre = function (req, res) {
-    console.log('Editer Livre');
     var options = {Id: req.body.Id};
     models.Livre.findOneAndUpdate(options,req.body, {upsert:true}, function(err, livre) {
         if (err) {
             return console.error(err);         }
         res.json(livre);
+    });
+};
+exports.EditerCategorie = function (req, res) {
+    var options = {Id: req.body.Id};
+    models.Categorie.findOneAndUpdate(options,req.body, {upsert:true}, function(err, categorie) {
+        if (err) {
+            return console.error(err);         }
+        res.json(categorie);
     });
 };
 exports.RecupererLivresParCategorie = function (req, res) {
@@ -58,5 +65,8 @@ exports.CreerLivre = function (req, res) {
 exports.DeleteLivre = function (req, res) {
     var options = {Id: req.params.Id};
     models.Livre.find().remove(options).exec();
-
+};
+exports.DeleteCategorie = function (req, res) {
+    var options = {Id: req.params.Id};
+    models.Categorie.find().remove(options).exec();
 };

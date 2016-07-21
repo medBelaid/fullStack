@@ -22,6 +22,7 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
     var Recuperercategories = function () {
         $http.get("/Categories").success(function(response){
             $scope.Categories = response;
+            console.log($scope.Categories[0]._id);
             $scope.Categorie = "";
         });
     }
@@ -123,12 +124,32 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
             $scope.UpdateCategorie();
         } else {
             $scope.AjouterCategorie();
-            $( "<li><a href='#/LesLivres/"+$scope.categorie.Id+"'>"+$scope.categorie.Libelle+"</a></li>" ).insertAfter( "#catMenu" );
+            $( "<li><a href='#/LesLivres/"+$scope.categorie.Id+"'>"+$scope.categorie.Libelle+"</a></li>" )
+                .css("background-color", "rgb(50, 49, 50)").insertAfter( "#catMenu" );
         }
     }
     $scope.AjouterCategorie = function () {
         $http.post("/Categorie/Creer", $scope.categorie).success(function(r){
             Recuperercategories();
         });
+    }
+    $scope.UpdateCategorie = function () {
+        $http.post("/Categorie/Editer", $scope.categorie).success(function(r){
+            Recuperercategories();
+        });
+    }
+    $scope.editerCategorie = function(index){
+        console.log(index);
+        $scope.categorie = $scope.Categories[index];
+    }
+    $scope.viderCategorie = function () {
+        $scope.categorie = "";
+    }
+    $scope.SupprimerCategorie = function(index){
+        var libelle = $scope.Categories[index].Libelle;
+        var id = $scope.Categories[index].Id;
+        confirm('Êtes-vous sûr de bien vouloir supprimer la catégorie '+libelle+'?');
+        $http.delete("/Categorie/Delete/"+id).success(function(response){});
+        Recuperercategories();
     }
 }]);

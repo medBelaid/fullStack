@@ -65,11 +65,11 @@
     </a>
 </div>
 <div class="blocklayout row">
-    <div class="col-md-4" ng-repeat="item in Livres | limitTo : 3 : Livres.length-3" style="margin-bottom: 20px;">
+    <div class="col-md-4" ng-repeat="item in Livres | limitTo : 3 : Livres.length-3" style="margin-top: 20px;">
         <div class="block product">
             <div class="main">
                 <a class="img-link" href="#/Detail/{{item.Id}}" title="{{item.Nom}}">
-                    <img src="img/Art-Palette.jpg" alt="Art" width="80%" style="margin-left: 17px;">
+                    <img ng-src="{{item.UrlImage}}" alt="Art" width="80%" style="width:100%;max-height: 200px">
                 </a>
                 <div class="quick-add-to-panel">
                     <div class="input-group col-lg-6 col-lg-offset-3 ">
@@ -88,27 +88,6 @@
             </div>
         </div>
     </div>
-</div>
-<div class="row  text-center">
-    <nav>
-        <ul class="pagination">
-            <li>
-                <a href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
 </div>
 
 <script>
