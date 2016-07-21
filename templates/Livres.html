@@ -1,19 +1,24 @@
 ﻿
 <div class="row">
-    <div class="col-sm-10">
+    <div class="col-sm-3">
     <ol class="breadcrumb pull-left">
         <li><a href="#">Accueil</a></li>
         <li><a href="#">Littérature</a></li>
     </ol>
-        <div class="pull-right col-sm-6" style="margin-top:12px">
+    </div>
+    <div class="col-sm-9">
+        <div class="" style="margin-top:12px">
             inférieur à
             <input type="number" class="form-control inputPrice" id="prix" placeholder="Prix" ng-model="MaxPrix" >
+            <input type="text" class="form-control inputPrice" ng-model="search.Nom" placeholder="Search" />
+            <strong><a href="" ng-click="resetFilters()">Voir tous</a></strong>
         </div>
     </div>
 </div>
 
 <div class="blocklayout row">
-    <div class="col-md-4" ng-repeat="item in Livres | inferieurA: MaxPrix | orderBy : 'Nom'" style="margin-bottom: 20px;">
+    <div class="col-md-4"
+         ng-repeat="item in filtered = Livres | inferieurA: MaxPrix | filter:search | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit | orderBy : 'Nom'" style="margin-bottom: 20px;">
         <div class="block product">
             <div class="main">
                 <a class="img-link" href="#/Detail/{{item.Id}}" title="{{item.Nom}}">
@@ -37,26 +42,8 @@
         </div>
     </div>
 </div>
-
 <div class="row  text-center">
-    <nav>
-        <ul class="pagination">
-            <li>
-                <a href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--<pagination page="currentPage" max-size="noOfPages" total-items="totalItems" items-per-page="entryLimit"></pagination>-->
+    <!--<ul uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"></ul>-->
 </div>
 

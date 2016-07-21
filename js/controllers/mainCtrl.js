@@ -89,7 +89,7 @@ app.controller('DetailControleur', function ($scope, $routeParams, LivresService
 });
 
 
-app.controller('LivresControleur', function ($scope, LivresService, PanierService, $routeParams) {
+app.controller('LivresControleur', function ($scope, LivresService, PanierService, $routeParams, filterFilter) {
     $scope.Livres = [];
     $scope.promise = LivresService.RecupererLivres()
         .success(function (data, status, headers, config) {
@@ -101,4 +101,36 @@ app.controller('LivresControleur', function ($scope, LivresService, PanierServic
     $scope.AjouterLivre = function(item)     {
         PanierService.AjouterLivre(item) ;
     }
+
+    // create empty search model (object) to trigger $watch on update
+    $scope.search = {};
+
+    $scope.resetFilters = function () {
+        // needs to be a function or it won't trigger a $watch
+        $scope.search = {};
+        $scope.MaxPrix = null;
+    };
+
+    // pagination controls
+    $scope.currentPage = 1;
+    $scope.totalItems = $scope.Livres.length;
+    $scope.entryLimit = 6; // items per page
+    $scope.maxSize = 2;
+    $scope.bigTotalItems = 175;
+    $scope.bigCurrentPage = 1;
+    $scope.setPage = function (pageNo) {
+        $scope.currentPage = pageNo;
+    };
+    $scope.pageChanged = function() {
+        $log.log('Page changed to: ' + $scope.currentPage);
+    };
+    $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
+
+    // $watch search to update pagination
+    $scope.$watch('search', function (newVal, oldVal) {
+        $scope.filtered = filterFilter($scope.Livres, newVal);
+        $scope.totalItems = $scope.filtered.length;
+        $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
+        $scope.currentPage = 1;
+    }, true);
 });
