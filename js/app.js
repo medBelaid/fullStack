@@ -9,6 +9,9 @@ app.config(function($routeProvider){
         .when('/Authentification', {templateUrl: "templates/Authentification.html",
                 controller: 'CompteControleur'})
 
+        .when('/Inscription', {templateUrl: "templates/inscription.html",
+                controller: 'registerCtrl'})
+
         .when('/BesoinAide', {templateUrl: "templates/BesoinAide.html",
                 controller: 'BesoinAideControleur'})
 

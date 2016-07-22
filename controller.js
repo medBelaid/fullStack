@@ -53,15 +53,30 @@ exports.RecupererCategories = function (req, res) {
     });
 };
 exports.CreerCategorie = function (req, res) {
+    models.Categorie(req.body).save();
+    res.json(req.body);
+};
+exports.CreerCategorie = function (req, res) {
     console.log('CreerCategorie',req.body);
     models.Categorie(req.body).save();
     res.json(req.body);
 };
-exports.CreerLivre = function (req, res) {
+exports.CreerLivre= function (req, res) {
     console.log(req.body);
     models.Livre(req.body).save();
     res.json(req.body);
 };
+exports.CreerCompte= function (req, res) {
+    console.log(req.body);
+    models.Compte(req.body).save();
+    res.json(req.body);
+};
+exports.RecupererComptes = function (req, res) {
+    models.Compte.find(function(err, comptes) {
+        if (err) {
+            return console.error(err);         }
+        res.json(comptes);
+    }); };
 exports.DeleteLivre = function (req, res) {
     var options = {Id: req.params.Id};
     models.Livre.find().remove(options).exec();

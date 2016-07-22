@@ -5,10 +5,25 @@ app.controller('mainControleur', [
     'PanierService',
     '$routeParams',
     '$http',
-    function($scope, LivresService, PanierService,$routeParams, $http) {
+    '$location',
+    function($scope, LivresService, PanierService, $routeParams, $http, $location) {
 
     $scope.EstPanierVide = true;
     $scope.Panier = PanierService.Panier;
+
+    //Active button in Menu
+        $scope.isActive = function (path) {
+        return $location.path() === path;
+    }
+
+    //Menu height inherited document height
+    $scope.withDoc = $( document  ).height();
+    $("#navbar").height( $scope.withDoc);
+
+    //Menu height inherited document height
+    var withDoc = $( document  ).height();
+    $("#navbar").height(withDoc);
+
     $scope.NombresLivres = function(){
         var total = 0;
         var estPanierVide = true;
@@ -53,7 +68,10 @@ app.controller('mainControleur', [
 
 
 app.controller('AccueilControleur', ['$scope', function($scope) {
-
+    //Menu height inherited document height
+    $("#navbar").height(0);
+    $scope.withDoc = $( document  ).height() + 50;
+    $("#navbar").height( $scope.withDoc);
 }]);
 app.controller('CompteControleur', ['$scope', function($scope) {
 
@@ -91,6 +109,12 @@ app.controller('DetailControleur', function ($scope, $routeParams, LivresService
 
 app.controller('LivresControleur', function ($scope, LivresService, PanierService, $routeParams, filterFilter) {
     $scope.Livres = [];
+
+    //Menu height inherited document height
+    $("#navbar").height(0);
+    $scope.withDoc = $( document  ).height();
+    $("#navbar").height( $scope.withDoc);
+
     $scope.promise = LivresService.RecupererLivres()
         .success(function (data, status, headers, config) {
             $scope.Livres = data;

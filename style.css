@@ -60,6 +60,9 @@ a {
     color: #ffffff;
     font-size: 30px;
 }
+.navbar-inverse{
+    border-color: #222;
+}
 
 #shoplogo {
     text-align: center;
@@ -106,6 +109,9 @@ a {
 }
 .searchnav input[placeholder]{
     padding-left: 10px;
+}
+#navbar{
+    background-color: #222;
 }
 #navbar ul.menu {
     padding-top: 60px;

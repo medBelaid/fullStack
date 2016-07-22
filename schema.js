@@ -14,7 +14,7 @@ exports.schemaLivre = new mongoose.Schema({
     NombrePages: Number,
     Poids: String,
     Disponibilite: Boolean,
-    DateSortie:String,
+    DateSortie:Date,
     UrlImage: String,
     Categorie: String,
     Quantite: Number,
@@ -23,4 +23,11 @@ exports.schemaLivre = new mongoose.Schema({
 exports.schemaCategorie = new mongoose.Schema({
     Id : String,
     Libelle: String
+} );
+exports.schemaCompte = new mongoose.Schema({
+    Sexe : String,
+    Nom: String,
+    Prenom: String,
+    Email: String,
+    Password: String
 } )

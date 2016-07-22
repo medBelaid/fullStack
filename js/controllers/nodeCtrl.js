@@ -2,11 +2,17 @@
  * Created by Mohamed on 09/07/2016.
  */
 'use strict';
-app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http',
-    function($scope, $routeParams, LivresService,$http) {
+app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http','$rootScope',
+    function($scope, $routeParams, LivresService,$http,$rootScope) {
+    //Menu height inherited document height
+    $("#navbar").height(0);
+    $rootScope.withDoc = $( document  ).height();
+    $("#navbar").height( $rootScope.withDoc);
     $scope.Livres = [];
-    $scope.categorie = "";
     $scope.Categories = [];
+    $scope.Comptes = [];
+    $scope.categorie = "";
+    $scope.livre = {Langue:"Français"};
     $scope.displayMode = "liv"
     $scope.setDisplayMode = function (mode) {
         $scope.displayMode = mode;
@@ -16,7 +22,12 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
     var RecupererLivres = function () {
         $http.get("/Livres").success(function(response){
             $scope.Livres = response;
-            $scope.livre = "";
+            $scope.livre = {Langue:"Français"};
+        });
+    }
+    var RecupererComptes = function () {
+        $http.get("/Comptes").success(function(response){
+            $scope.Comptes = response;
         });
     }
     var Recuperercategories = function () {
@@ -28,6 +39,7 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
     }
     RecupererLivres();
     Recuperercategories();
+    RecupererComptes();
 
     //*****************************Gestion de Livres**************************************************//
     $scope.EnregistrerLivre = function () {
@@ -101,8 +113,8 @@ app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$ht
                 displayName : "Maison d'edition"
             },
             {
-                field : 'DateSortie',
-                displayName : 'Date de Sortie'
+                field : 'NombrePages',
+                displayName : 'NombrePages'
             },
             {
                 field : 'Categorie',

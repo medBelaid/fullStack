@@ -17,7 +17,7 @@ fixtures.clearAndLoad({
         "NombrePages": 352,
         "Poids": "190 g",
         "Disponibilite": "En stock",
-        "DateSortie": "21 janv. 2016",
+        "DateSortie": "2016-06-20T15:38:34.728Z",
         "UrlImage": "https://placeholdit.imgix.net/~text?txtsize=82&txt=First+slide&w=350&h=350",
         "Categorie": "VoyagesNature",
         "Quantite": 0,
@@ -34,7 +34,7 @@ fixtures.clearAndLoad({
         "NombrePages": 352,
         "Poids": "190 g",
         "Disponibilite": "En stock",
-        "DateSortie": "21 janv. 2016",
+        "DateSortie": "2016-06-20T15:38:34.728Z",
         "UrlImage": "http://cdn.shopify.com/s/files/1/0130/8502/products/978-0-89236-968-3_1024x1024.jpeg?v=1332458577",
         "Categorie": "VoyagesNature",
         "Quantite": 0,
@@ -52,7 +52,7 @@ fixtures.clearAndLoad({
             "NombrePages": 852,
             "Poids": "10 g",
             "Disponibilite": "En stock",
-            "DateSortie": "21 janv. 2016",
+            "DateSortie": "2016-06-20T15:38:34.728Z",
             "UrlImage": "https://s-media-cache-ak0.pinimg.com/736x/07/a6/29/07a629712a15e99ee0ae5c0635019319.jpg",
             "Categorie": "ScolairePedagogie",
             "Quantite": 0,
@@ -63,6 +63,9 @@ fixtures.clearAndLoad({
         {Id : "SciencesTechniques",Libelle :"Sciences & Techniques"},
         {Id : "DroitEconomieGestion",Libelle :"Droit, Economie & Gestion"},
         {Id : "VoyagesNature",Libelle :"Voyages & Nature"},
-        {Id : "ScolairePedagogie",Libelle :"Scolaire & Pédagogie"}     ] },
+        {Id : "ScolairePedagogie",Libelle :"Scolaire & Pédagogie"}     ],
+
+    comptes:[{Sexe : "H", Nom :"Belaid",Prenom: "Mohamed", Email: "medbbelaid@gmail.com", Password: "3e4b729c32ff4503bb1915c44cf03390" }]
+    },
     function(err) {     if(err){       console.log('************** ERREUR : clearAndLoad');       console.log(err);
         console.log('************** ERREUR : clearAndLoad');     } });

@@ -24,26 +24,8 @@ app.post('/Livre/Editer', contoller.EditerLivre);
 app.post('/Categorie/Editer', contoller.EditerCategorie);
 app.delete('/Livre/Delete/:Id', contoller.DeleteLivre);
 app.delete('/Categorie/Delete/:Id', contoller.DeleteCategorie);
-
-app.get("/livrelist",function(req,res){
-    db.livrelist.find(function(err, docs){
-        console.log(docs);
-        res.json(docs);
-    });
-});
-app.post("/livrelist",function(req,res){
-    console.log(req.body);
-    db.livrelist.insert(req.body, function(err, doc){
-        res.json(doc);
-    });
-});
-
-app.delete("/livrelist/:id",function(req,res){
-    var id = req.params.id;
-    db.livrelist.remove({_id:mongojs.ObjectId(id)}, function(err, doc){
-        res.json(doc);
-    });
-});
+app.get('/Comptes', contoller.RecupererComptes);
+app.post('/Compte/Creer', contoller.CreerCompte);
 
 app.listen(8080);
 //console.log("server running on port 3000");

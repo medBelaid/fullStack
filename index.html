@@ -59,7 +59,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">JeBouquine</a>
+                    <a class="navbar-brand" href="#/Accueil">JeBouquine</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -73,12 +73,14 @@
                         </div><!-- /input-group -->
                     </form>
                     <ul class="nav navbar-nav">
-                        <li><a href="#/Administration">Administration</a></li>
-                        <li class="active"><a href="#">Accueil</a></li>
-                        <li><a href="#/LesLivres">Toute la Collection</a></li>
-                        <li ng-repeat="cat in Categories" id="catMenu"><a href="#/LesLivres/{{cat.Id}}">{{cat.Libelle}}</a></li>
+                        <li data-ng-class="{active: isActive('/Administration')}"><a href="#/Administration">Administration</a></li>
+                        <li data-ng-class="{active: isActive('/Accueil')}"><a href="#/Accueil">Accueil</a></li>
+                        <li data-ng-class="{active: isActive('/LesLivres')}"><a href="#/LesLivres">Toute la Collection</a></li>
+                        <li ng-repeat="cat in Categories" id="catMenu" data-ng-class="{active: isActive('/LesLivres/{{cat.Id}}')}">
+                            <a href="#/LesLivres/{{cat.Id}}">{{cat.Libelle}}</a>
+                        </li>
                         <li><a href="login.html"><button type="button" class="btn btn-success navbar-btn">Connexion</button></a></li>
-                        <li><a href="register.html">S'inscrire</a></li>
+                        <li data-ng-class="{active: isActive('/Inscription')}" ><a href="#/Inscription">S'inscrire</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
@@ -114,8 +116,11 @@
 
 <script type="text/javascript" src="js/controllers/mainCtrl.js"></script>
 <script type="text/javascript" src="js/controllers/nodeCtrl.js"></script>
+<script type="text/javascript" src="js/controllers/datepickerPopupCtrl.js"></script>
+<script type="text/javascript" src="js/controllers/register.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/jquery.md5.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
