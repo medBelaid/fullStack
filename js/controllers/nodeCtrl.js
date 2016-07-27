@@ -2,12 +2,18 @@
  * Created by Mohamed on 09/07/2016.
  */
 'use strict';
-app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http','$rootScope',
-    function($scope, $routeParams, LivresService,$http,$rootScope) {
-    //Menu height inherited document height
-    $("#navbar").height(0);
-    $rootScope.withDoc = $( document  ).height();
-    $("#navbar").height( $rootScope.withDoc);
+app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http',
+    function($scope, $routeParams, LivresService,$http) {
+
+//Menu height inherited document height
+        $scope.widthDoc = $("#navbar").height();
+        $scope.$watch('widthDoc', function (newVal, oldVal) {
+            if($( document  ).width()>768){
+                $("#navbar").height(0);
+                $scope.widthDoc = $( document  ).height();
+                $("#navbar").height( $scope.widthDoc);}
+        });
+
     $scope.Livres = [];
     $scope.Categories = [];
     $scope.Comptes = [];

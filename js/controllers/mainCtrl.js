@@ -16,14 +16,12 @@ app.controller('mainControleur', [
         return $location.path() === path;
     }
 
-    //Menu height inherited document height
-    $scope.withDoc = $( document  ).height();
-    $("#navbar").height( $scope.withDoc);
-
-    //Menu height inherited document height
-    var withDoc = $( document  ).height();
-    $("#navbar").height(withDoc);
-
+    $scope.IsConnected = function () {
+        $http.get("/IsConnected",$scope.Compte).success(function(r){
+            console.log(r);
+            //return r;
+        })}
+        //$scope.IsConnected();
     $scope.NombresLivres = function(){
         var total = 0;
         var estPanierVide = true;
@@ -68,10 +66,15 @@ app.controller('mainControleur', [
 
 
 app.controller('AccueilControleur', ['$scope', function($scope) {
-    //Menu height inherited document height
-    $("#navbar").height(0);
-    $scope.withDoc = $( document  ).height() + 50;
-    $("#navbar").height( $scope.withDoc);
+    ////Menu height inherited document height
+    //$scope.widthDoc = $("#navbar").height();
+    //$scope.$watch('widthDoc', function (newVal, oldVal) {
+    //    if($( document  ).width()>768){
+    //        $("#navbar").height(0);
+    //        $scope.widthDoc = $( document  ).height();
+    //        $("#navbar").height( $scope.widthDoc + 50);}
+    //});
+
 }]);
 app.controller('CompteControleur', ['$scope', function($scope) {
 
@@ -111,9 +114,14 @@ app.controller('LivresControleur', function ($scope, LivresService, PanierServic
     $scope.Livres = [];
 
     //Menu height inherited document height
-    $("#navbar").height(0);
-    $scope.withDoc = $( document  ).height();
-    $("#navbar").height( $scope.withDoc);
+    $scope.widthDoc = $("#navbar").height();
+    $scope.$watch('widthDoc', function (newVal, oldVal) {
+        if($( document  ).width()>768){
+            $("#navbar").height(0);
+            $scope.widthDoc = $( document  ).height();
+            $("#navbar").height( $scope.widthDoc);}
+    });
+
 
     $scope.promise = LivresService.RecupererLivres()
         .success(function (data, status, headers, config) {

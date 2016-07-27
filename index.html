@@ -71,6 +71,7 @@
                             <button class="btn btn-default" type="submit" type="button">Go!</button>
                           </span>
                         </div><!-- /input-group -->
+                        <!--<div id="usernameMenu">bonjour</div>-->
                     </form>
                     <ul class="nav navbar-nav">
                         <li data-ng-class="{active: isActive('/Administration')}"><a href="#/Administration">Administration</a></li>
@@ -79,7 +80,7 @@
                         <li ng-repeat="cat in Categories" id="catMenu" data-ng-class="{active: isActive('/LesLivres/{{cat.Id}}')}">
                             <a href="#/LesLivres/{{cat.Id}}">{{cat.Libelle}}</a>
                         </li>
-                        <li><a href="login.html"><button type="button" class="btn btn-success navbar-btn">Connexion</button></a></li>
+                        <li><a href="#/Connexion"><button type="button" class="btn btn-success navbar-btn">Connexion</button></a></li>
                         <li data-ng-class="{active: isActive('/Inscription')}" ><a href="#/Inscription">S'inscrire</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">

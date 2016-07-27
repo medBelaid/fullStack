@@ -85,3 +85,25 @@ exports.DeleteCategorie = function (req, res) {
     var options = {Id: req.params.Id};
     models.Categorie.find().remove(options).exec();
 };
+exports.Login = function (req, res) {
+    var options = {Email: req.body.Email, Password: req.body.Password};
+    models.Compte.findOne(options,function(err, compte) {
+        if (err) {
+            return console.error(err);
+        }
+        if(!compte){
+            return res.json(false);
+        }
+        req.session.user = compte;
+        res.json(compte);
+    });
+};
+exports.IsConnected = function (req, res) {
+    if(!req.session.user){
+        return false
+    }
+    return true
+}
+exports.IsConnected2 = function (req, res) {
+    return true
+}
