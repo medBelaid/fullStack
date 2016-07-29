@@ -28,15 +28,14 @@ app.config(function($routeProvider){
                 controller: 'LivresControleur'})
 
         .when('/Administration', {templateUrl: "templates/administration.html",
-                controller: 'NodeControleur'})
+                controller: 'DashboardControleur'})
 
         .when('/Cart', {templateUrl: "templates/cart.html",
                controller: 'mainControleur'})
 
-
-            .otherwise({
-                    redirectTo: '/Accueil'
-            })
+        .otherwise({
+                redirectTo: '/Accueil'
+        })
     ;
 });
 

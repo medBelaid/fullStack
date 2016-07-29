@@ -2,7 +2,7 @@
  * Created by Mohamed on 09/07/2016.
  */
 'use strict';
-app.controller('NodeControleur', ['$scope', '$routeParams', 'LivresService','$http',
+app.controller('DashboardControleur', ['$scope', '$routeParams', 'LivresService','$http',
     function($scope, $routeParams, LivresService,$http) {
 
 //Menu height inherited document height
