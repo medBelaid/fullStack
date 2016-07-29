@@ -1,0 +1,49 @@
+﻿
+<div class="row">
+    <div class="col-sm-3">
+    <ol class="breadcrumb pull-left">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Littérature</a></li>
+    </ol>
+    </div>
+    <div class="col-sm-9">
+        <div class="" style="margin-top:12px">
+            inférieur à
+            <input type="number" class="form-control inputPrice" id="prix" placeholder="Prix" ng-model="MaxPrix" >
+            <input type="text" class="form-control inputPrice" ng-model="search.Nom" placeholder="Search" />
+            <strong><a href="" ng-click="resetFilters()">Voir tous</a></strong>
+        </div>
+    </div>
+</div>
+
+<div class="blocklayout row">
+    <div class="col-md-4"
+         ng-repeat="item in filtered = Livres | inferieurA: MaxPrix | filter:search | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit | orderBy : 'Nom'" style="margin-bottom: 20px;">
+        <div class="block product">
+            <div class="main">
+                <a class="img-link" href="#/Detail/{{item.Id}}" title="{{item.Nom}}">
+                    <img src="{{item.UrlImage}}" alt="Art" width="80%" style="width:100%;max-height: 200px">
+                </a>
+                <div class="quick-add-to-panel">
+                    <div class="input-group col-lg-6 col-lg-offset-3 ">
+                        <input type="number" class="form-control" ng-model="item.Quantite" >
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button" ng-click="AjouterLivre(item)">
+                                <i class="fa fa-cart-plus"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="sub">
+                <div><a class="title" href="#/Detail/{{item.Id}}"><span>{{item.Nom}}</span></a></div>
+                <div><span class="price">{{ item.Prix }} TND</span></div>
+                <span class="price"><b>Auteur:</b> {{ item.Auteur }}</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row  text-center">
+    <!--<pagination page="currentPage" max-size="noOfPages" total-items="totalItems" items-per-page="entryLimit"></pagination>-->
+    <!--<ul uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"></ul>-->
+</div>
+

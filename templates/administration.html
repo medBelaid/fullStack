@@ -1,0 +1,233 @@
+<div class="row">
+    <div style="margin: 15px 0 0 15px" class="btn-group">
+        <div class="btn btn-info btn-xs" ng-click="setDisplayMode('liv')" ng-class="{active: displayMode == 'liv'}">Gestion de Livres</div>
+        <div class="btn btn-info btn-xs" ng-click="setDisplayMode('cat')" ng-class="{active: displayMode == 'cat'}">Gestion de Catégories</div>
+        <div class="btn btn-info btn-xs" ng-click="setDisplayMode('user')" ng-class="{active: displayMode == 'user'}">Gestion des Utilsateurs</div>
+    </div>
+</div>
+<div class="row" ng-show="displayMode == 'liv'">
+    <div class="col-lg-12">
+        <h2 class="book-title">{{livre.Nom}}</h2>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pull-right btns-cat">
+                    <button class="btn btn-action"
+                            ng-click="EnregistrerLivre()"
+                            ng-disabled="!saveBookForm.$valid;">Enregistrer</button>
+                    <button class="btn" ng-click="">Generer</button>
+                    <button class="btn" ng-click="viderLivre()">Vider</button>
+                </div>
+            </div>
+        </div>
+    <form name="saveBookForm">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1" >Nom</span>
+                    <input type="text" ng-model="livre.Nom" class="form-control" required="required"
+                           placeholder="Nom" aria-describedby="basic-addon1">
+                </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon2">Auteur</span>
+                    <input type="text" ng-model="livre.Auteur" class="form-control" required="required"
+                           placeholder="Auteur" aria-describedby="basic-addon2">
+                </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon3">Langue</span>
+                        <select class="form-control" ng-model="livre.Langue">
+                                <option ng-repeat="lang in Langues" value="{{lang.Langue}}">{{lang.Langue}}</option>
+                        </select>
+                    </div></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon4">Prix</span>
+                        <input type="text" ng-model="livre.Prix" class="form-control" required="required"
+                               placeholder="Prix" aria-describedby="basic-addon4">
+                    </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon6">Nombre de Pages</span>
+                        <input type="number" ng-model="livre.NombrePages" class="form-control"
+                               placeholder="Nombre de Pages" aria-describedby="basic-addon6">
+                    </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon7">Poids</span>
+                        <input type="text" ng-model="livre.Poids" class="form-control"
+                               placeholder="Poids" aria-describedby="basic-addon7">
+                    </div></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                    <div class="col-sm-4">
+                        <div ng-controller="DatepickerPopupCtrl">
+                            <p class="input-group">
+                                <input type="text" class="form-control"
+                                       uib-datepicker-popup="{{format}}"
+                                       id="datepicker" name="datepicker"
+                                       ng-model="livre.DateSortie"
+                                       is-open="popup2.opened"
+                                       datepicker-options="dateOptions"
+                                       ng-required="true"
+                                       placeholder="Date de Sortie"
+                                       close-text="Close" />
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default" ng-click="open2()">
+                                        <i class="glyphicon glyphicon-calendar"></i>
+                                    </button>
+                              </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon9">Url Image</span>
+                            <input type="text" ng-model="livre.UrlImage" class="form-control" required="required"
+                                   placeholder="Url Image" aria-describedby="basic-addon9">
+                        </div></div>
+                    <div class="col-sm-4">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon10">Maison d'édition</span>
+                            <input type="text" ng-model="livre.MaisonEdition" class="form-control"
+                                   placeholder="Maison d'édition" aria-describedby="basic-addon10">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon11">ISBN</span>
+                        <input type="text" ng-model="livre.ISBN" class="form-control"
+                               aria-describedby="basic-addon11" placeholder="ISBN">
+                    </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon12">Quantite</span>
+                        <input type="number" ng-model="livre.Quantite" class="form-control"
+                               placeholder="Quantite" aria-describedby="basic-addon12">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon8">Date DC</span>
+                        <input type="text" ng-model="livre.DateDerniereCommande" class="form-control"
+                               placeholder="Date derniére commande" aria-describedby="basic-addon8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon14">Catégorie</span>
+                        <select class="form-control"
+                                ng-options="cat.Id as cat.Libelle for cat in Categories track by cat.Id" required="required"
+                                ng-model="livre.Categorie">
+                        </select>
+                    </div></div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                        <div class="checkbox">
+                            <label><input type="checkbox" ng-model="livre.Disponibilite" style="margin-top: -2px">Disponibilité</label>
+                        </div></div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon15">Description</span>
+                            <textarea class="form-control" ng-model="livre.Description" rows="5"></textarea>
+                        </div></div>
+                </div>
+        </div>
+    </form>
+    </div>
+</div>
+
+<div class="row" ng-show="displayMode == 'cat'">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pull-right btns-cat" >
+                    <button class="btn btn-action"
+                            ng-click="EnregistrerCategorie()"
+                            ng-disabled="!saveCatForm.$valid;">Enregistrer</button>
+                    <button class="btn" ng-click="">Generer</button>
+                    <button class="btn" ng-click="viderCategorie()">Vider</button>
+                </div>
+            </div>
+        </div>
+        <form name="saveCatForm">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon16" >Id</span>
+                            <input type="text" ng-model="categorie.Id" class="form-control" required="required"
+                                   placeholder="Id" aria-describedby="basic-addon16">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon17">Libelle</span>
+                            <input type="text" ng-model="categorie.Libelle" class="form-control" required="required"
+                                   placeholder="Libelle" aria-describedby="basic-addon17">
+                        </div>
+                    </div>
+                </div>
+            </div></form></div></div>
+
+<div class="row" ng-show="displayMode == 'liv'">
+    <div class="col-sm-12">
+        <div class="gridStyle" ui-grid="gridOptions"></div>
+    </div>
+</div>
+<div class="row" ng-show="displayMode == 'cat'">
+    <div class="col-sm-12">
+        <table class="table">
+            <thead><tr><th>Id</th><th>Libelle</th><th></th></tr></thead>
+            <tbody>
+            <tr ng-repeat="cat in Categories">
+                <td>{{cat.Id}}</td>
+                <td>{{cat.Libelle}}</td>
+                <td>
+                    <div class="btn btn-danger btn-xs pull-right" style="margin:3px" ng-click="SupprimerCategorie($index)">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                    <div class="btn btn-info btn-xs pull-right" style="margin:3px" ng-click="editerCategorie($index)">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row" ng-show="displayMode == 'user'">
+    <div class="col-sm-12">
+        <table class="table">
+            <thead><tr><th>Sex</th><th>Nom & Prénom</th><th>Email</th><th>mot de passe</th></tr></thead>
+            <tbody>
+            <tr ng-repeat="user in Comptes">
+                <td><span ng-if="user.Sexe =='H'">Homme</span><span ng-if="user.Sexe =='F'">Femme</span></td>
+                <td>{{user.Nom}} {{user.Prenom}}</td>
+                <td>{{user.Email}}</td>
+                <td>{{user.Password}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

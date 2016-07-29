@@ -1,0 +1,42 @@
+
+<div id="content">
+    <div class="block" style="height: 600px;">
+        <h1 class="padded40">Panier</h1>
+        <form id="cartform" action="" method="post">
+            <table class="table">
+                <tbody>
+                    <tr ng-repeat="item in Panier">
+                        <td><a class="remove"  href="">×</a></td>
+                        <td><div class="image">
+                            <a href=""><img src="{{item.UrlImage}}" alt="Art" style="min-width: 80px;"></a>
+                        </div></td>
+                        <td>
+                            <a href="">{{item.Nom}}</a>
+                        </td>
+                        <td><div class="quantity">
+                            <label>Qté:</label>
+                            <input type="text" size="2" value="{{item.Quantite}}">
+                        </div></td>
+                        <td><div class="line-total">{{item.Prix}} dt</div></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="padded40 divided">
+                <div class="finalinfo">
+                    <span class="subtotal">Total: {{CalculerMontantTotal()}} dt</span>
+                </div>
+            </div>
+            <div class="padded40 divided">
+                <div class="checkoutrow">
+                    <input type="submit" name="checkout" value="Passer à la Caisse">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(document).on('click', '.remove', function() {
+       return confirm('Êtes-vous sûr de vouloir supprimer cet élément?');
+    });
+</script>
