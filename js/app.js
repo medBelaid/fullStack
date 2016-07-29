@@ -13,7 +13,7 @@ app.config(function($routeProvider){
                 controller: 'registerCtrl'})
 
         .when('/Connexion', {templateUrl: "templates/login.html",
-               controller: 'registerCtrl'})
+               controller: 'mainControleur'})
 
         .when('/BesoinAide', {templateUrl: "templates/BesoinAide.html",
                 controller: 'BesoinAideControleur'})
@@ -29,6 +29,9 @@ app.config(function($routeProvider){
 
         .when('/Administration', {templateUrl: "templates/administration.html",
                 controller: 'NodeControleur'})
+
+        .when('/Cart', {templateUrl: "templates/cart.html",
+               controller: 'mainControleur'})
 
 
             .otherwise({

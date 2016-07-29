@@ -1,152 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>produit art</title>
-    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css" media="all" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,400,700|Lato:100,400,700|Lato:100,400,700|Lato:100,400,700" rel="stylesheet" type="text/css" />
-    <script src="lib/jquery.min.js" type="text/javascript"></script>
-</head>
-<body>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3" id="navbar" style="padding: 0">
+<div id="content">
+    <div class="blocklayout" style="position: relative; height: 700px;background-color: #fff">
 
-            <nav class="navbar navbar-default navbar-inverse" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">JeBouquine</a>
+        <div class="padded20">
+            <div class="nextprod">
+                <a class="text" href="">Suivant <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="backtopcatprod">
+                <a href=""><i class="fa fa-chevron-left" aria-hidden="true"></i> retour aux Arts</a>
+            </div>
+        </div>
+
+        <div class="row padded20">
+            <!-- /#product-gallery -->
+            <div id="product-gallery" class="col-md-6">
+                <a href="art.html" title="Aspen" data-index="0">
+                    <img src="img/Art-Palette.jpg" alt="Art">
+                </a>
+            </div>
+            <!-- /#product-info -->
+            <div id="product-info"  class="col-md-6">
+                <h1 class="product-title" itemprop="name">Produit 1</h1>
+                <span class="price">29.99 dt</span>
+                <p>Auteur: <a href="" title=""><span>Sizar Nokarian</span></a></p>
+                <!-- /.options -->
+                <form action="" method="post">
+                    <div class="productoptions section">
+                        <label for="quantity">Quantité</label>
+                        <div class="quantadd">
+                            <input id="quantity" name="quantity" value="1" size="2">
+                            <input type="submit" name="add" value="Ajouter au panier">
+                        </div>
+                    </div>
+                </form>
+                <!-- /.seemore -->
+                <div class="section">
+                    Voir plus: <a href="" title="Arts">Arts</a>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <form class="navbar-form navbar-left" role="search" style="margin-top: 20px">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Rechercher...">
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="submit" type="button">Go!</button>
-                          </span>
-                        </div><!-- /input-group -->
-                    </form>
-                    <ul class="nav navbar-nav">
-                        <li><a href="cart.html">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            <span class="title">Panier</span>
-                            <span class="numitems">(0)</span>
-                        </a> </li>
-                        <li class="active"><a href="#">Accueil</a></li>
-                        <li><a href="#">Toute la Collection</a></li>
-                        <li><a>Arts</a></li>
-                        <li><a>Cuisine</a></li>
-                        <li><a>Histoire</a></li>
-                        <li><a>Sport</a></li>
-                        <li><a href="login.html"><button type="button" class="btn btn-success navbar-btn">Connexion</button></a></li>
-                        <li><a href="register.html">S'inscrire</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos de nous <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="menutitle" href="">About</a></li>
-                                <li><a class="menutitle" href="">Contact</a></li>
-                            </ul>
+                <div class="social">
+                    <span class="label">Partager</span>
+                    <ul>
+                        <li class="facebook">
+                            <a title="Facebook" target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="twitter">
+                            <a title="Twitter" target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="pinterest">
+                            <a title="Pinterest" target="_blank" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="google">
+                            <a title="Google" target="_blank" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
                         </li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
-        </div>
-        <div class="col-md-9">
-
-            <div id="content">
-                <div class="blocklayout" style="position: relative; height: 700px;background-color: #fff">
-
-                    <div class="padded20">
-                        <div class="nextprod">
-                            <a class="text" href="">Suivant <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="backtopcatprod">
-                            <a href=""><i class="fa fa-chevron-left" aria-hidden="true"></i> retour aux Arts</a>
-                        </div>
-                    </div>
-
-                    <div class="row padded20">
-                        <!-- /#product-gallery -->
-                        <div id="product-gallery" class="col-md-6">
-                            <a href="art.html" title="Aspen" data-index="0">
-                                <img src="img/Art-Palette.jpg" alt="Art">
-                            </a>
-                        </div>
-                        <!-- /#product-info -->
-                        <div id="product-info"  class="col-md-6">
-                            <h1 class="product-title" itemprop="name">Produit 1</h1>
-                            <span class="price">29.99 dt</span>
-                            <p>Auteur: <a href="" title=""><span>Sizar Nokarian</span></a></p>
-                            <!-- /.options -->
-                            <form action="" method="post">
-                                <div class="productoptions section">
-                                    <label for="quantity">Quantité</label>
-                                    <div class="quantadd">
-                                        <input id="quantity" name="quantity" value="1" size="2">
-                                        <input type="submit" name="add" value="Ajouter au panier">
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- /.seemore -->
-                            <div class="section">
-                                Voir plus: <a href="" title="Arts">Arts</a>
-                            </div>
-                            <div class="social">
-                                <span class="label">Partager</span>
-                                <ul>
-                                    <li class="facebook"><a title="Facebook" target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="twitter"><a title="Twitter" target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="pinterest"><a title="Pinterest" target="_blank" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                    <li class="google"><a title="Google" target="_blank" href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="descriptionunder padded20">
-                        <p>le Lorem Ipsum on sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).</p>
-                    </div>
-
                 </div>
             </div>
-
         </div>
-    </div>
-    <div class="row">
-        <footer>
-            <!-- .social-links -->
-            <div class="social-links text-center">
-                <a title="Twitter" target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a title="Facebook" target="_blank" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a title="Pinterest" target="_blank" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-            </div>
 
-            <div class="copy text-center">
-                <p>© 2016 <a href="index.html" title="">JeBouquine</a></p>
-            </div>
-        </footer>
+        <div class="descriptionunder padded20">
+            <p>le Lorem Ipsum on sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).</p>
+        </div>
+
     </div>
 </div>
-
-<script src="script.js" type="text/javascript"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-</html>

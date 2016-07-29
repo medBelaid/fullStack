@@ -100,9 +100,13 @@ exports.Login = function (req, res) {
 };
 exports.IsConnected = function (req, res) {
     if(!req.session.user){
-        return false
+        return res.json(false);
     }
-    return true
+    return res.json(true);
+}
+exports.Logout = function (req, res) {
+    req.session.destroy();
+    return res.status(200).send();
 }
 exports.IsConnected2 = function (req, res) {
     return true

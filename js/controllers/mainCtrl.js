@@ -10,6 +10,14 @@ app.controller('mainControleur', [
 
     $scope.EstPanierVide = true;
     $scope.Panier = PanierService.Panier;
+    $scope.User = {};
+    //Logout
+    $scope.logout = function () {
+        $http.post("/Logout").success(function(r){
+        })
+        $('#usernameMenu').css({display: none});
+        $('#logout').css({display: none});
+    }
 
     //Active button in Menu
         $scope.isActive = function (path) {
@@ -17,11 +25,28 @@ app.controller('mainControleur', [
     }
 
     $scope.IsConnected = function () {
-        $http.get("/IsConnected",$scope.Compte).success(function(r){
-            console.log(r);
-            //return r;
-        })}
-        //$scope.IsConnected();
+        var reponse = false;
+        $http.get("/IsConnected").success(function(r){
+            reponse = r;
+    })
+        return  reponse;
+    }
+    $scope.login = function () {
+        $scope.Compte.Password = $.md5($scope.Compte.Password);
+        $http.post("/Login",$scope.Compte).success(function(r){
+            if(!r){
+                alert("login ou mot de passe incorrect");
+            }
+            else{
+                $scope.User = r;
+                $('#usernameMenu').html("Bonjour "+$scope.User.Nom+" "+$scope.User.Prenom);
+                $('#usernameMenu').css({"font-size": "20px", color: "#ff0b5c", "margin": "10px 0"});
+                $('#logout').html("<a ng-click='logout()' class='btn'>D&eacute;connecter</a>");
+            }
+        });
+
+    $scope.Compte = {Sexe: 'H',Nom: '',Prenom: '',Email: '',Password:''};
+    }
     $scope.NombresLivres = function(){
         var total = 0;
         var estPanierVide = true;
@@ -66,14 +91,6 @@ app.controller('mainControleur', [
 
 
 app.controller('AccueilControleur', ['$scope', function($scope) {
-    ////Menu height inherited document height
-    //$scope.widthDoc = $("#navbar").height();
-    //$scope.$watch('widthDoc', function (newVal, oldVal) {
-    //    if($( document  ).width()>768){
-    //        $("#navbar").height(0);
-    //        $scope.widthDoc = $( document  ).height();
-    //        $("#navbar").height( $scope.widthDoc + 50);}
-    //});
 
 }]);
 app.controller('CompteControleur', ['$scope', function($scope) {

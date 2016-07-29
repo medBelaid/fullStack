@@ -29,6 +29,7 @@ app.delete('/Categorie/Delete/:Id', contoller.DeleteCategorie);
 app.get('/Comptes', contoller.RecupererComptes);
 app.post('/Compte/Creer', contoller.CreerCompte);
 app.post('/Login', contoller.Login);
+app.post('/Logout', contoller.Logout);
 app.get('/IsConnected', contoller.IsConnected);
 
 app.listen(8080);
